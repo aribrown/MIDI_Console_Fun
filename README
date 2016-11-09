@@ -1,0 +1,15 @@
+README
+By: Ari Brown
+
+Primative system for translating MIDI input to a score,
+and reading a text file of notes and transcribing them to a score.
+MIDI input is based on computer keyboard QWERTY layout, and 
+score output prints in ascii characters to console.
+
+Note: console must be full screen for this to work, ridiculous, but fun!
+
+------------ Run ---------------
+Compile:
+        clang++ -Wall -Wextra *.cpp -o music
+Run:
+        ./music
